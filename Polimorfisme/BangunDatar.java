@@ -1,4 +1,4 @@
-package polimorfisme;
+package Polimorfisme;
 
 public class BangunDatar {
     public double luas(){

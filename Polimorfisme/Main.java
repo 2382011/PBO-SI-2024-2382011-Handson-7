@@ -1,0 +1,17 @@
+package Polimorfisme;
+
+public class Main {
+    public static void main(String[] args) {
+        BangunDatar bangunDatar = new Persegi( 4);
+        System.out.println("Luas Persegi: " + bangunDatar.luas());
+        System.out.println("Keliling Persegi: " + bangunDatar.keliling());
+
+        bangunDatar = new Lingkaran(7);
+        System.out.println("Luas Lingkaran: " + bangunDatar.luas());
+        System.out.println("Keliling Lingkaran: " + bangunDatar.keliling());
+
+        bangunDatar = new SegitigaSamaSisi( 5, 8);
+        System.out.println("Luas Segitiga: " + bangunDatar.luas());
+        System.out.println("Keliling Segitiga: " + bangunDatar.keliling());
+    }
+}

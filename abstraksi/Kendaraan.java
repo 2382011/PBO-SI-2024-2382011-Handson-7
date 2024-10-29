@@ -1,15 +1,15 @@
 package abstraksi;
 
-public class Kendaraan {
+abstract class Kendaraan {
     String warna;
 
-    public kendaraan(final String warna){
+    public Kendaraan(final String warna){
         this.warna = warna;
     }
 
-    abstract  void bergerak();
+    abstract void bergerak();
 
     void info(){
-        System.out.println("warna : " + warna );
+        System.out.println("Warna : " + warna);
     }
 }
